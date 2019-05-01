@@ -12,6 +12,7 @@
 		085576222279875F00F6F495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085576202279875F00F6F495 /* Main.storyboard */; };
 		085576242279876000F6F495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085576232279876000F6F495 /* Assets.xcassets */; };
 		085576272279876000F6F495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085576252279876000F6F495 /* LaunchScreen.storyboard */; };
+		0855762F2279897600F6F495 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0855762E2279897500F6F495 /* sample.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		085576232279876000F6F495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		085576262279876000F6F495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		085576282279876000F6F495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0855762E2279897500F6F495 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0855761C2279875F00F6F495 /* AppDelegate.swift */,
 				0855761E2279875F00F6F495 /* ViewController.swift */,
 				085576202279875F00F6F495 /* Main.storyboard */,
+				0855762E2279897500F6F495 /* sample.pdf */,
 				085576232279876000F6F495 /* Assets.xcassets */,
 				085576252279876000F6F495 /* LaunchScreen.storyboard */,
 				085576282279876000F6F495 /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				085576272279876000F6F495 /* LaunchScreen.storyboard in Resources */,
 				085576242279876000F6F495 /* Assets.xcassets in Resources */,
+				0855762F2279897600F6F495 /* sample.pdf in Resources */,
 				085576222279875F00F6F495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
