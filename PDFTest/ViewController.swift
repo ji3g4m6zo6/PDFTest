@@ -35,11 +35,8 @@ class ViewController: UIViewController, PDFViewDelegate {
     }
     
     @IBAction func setDirectionPoint(_ sender: Any) {
-        pdfView.go(to: PDFDestination(page: pdfView.document!.page(at: 0)!, at: savedDestinationPoint))
-        //        pdfView.go(to: pdfView.document!.page(at: 0)!)
-        print(pdfView.currentPage!)
-        print(savedDestinationPoint)
-        print(pdfView.currentDestination!.point)
+        let pageRect = pdfView.document!.page(at: 0)!.pageRef!.getBoxRect(CGPDFBox.mediaBox)
+        pdfView.go(to: PDFDestination(page: pdfView.document!.page(at: 0)!, at: CGPoint(x: savedDestinationPoint.x, y: pageRect.size.height - (self.view.frame.size.height - pdfView.frame.size.height - 21) + savedDestinationPoint.y)))
     }
     
     @IBAction func getDirectionPoint(_ sender: Any) {
