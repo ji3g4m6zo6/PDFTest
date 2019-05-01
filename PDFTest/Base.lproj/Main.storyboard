@@ -44,7 +44,7 @@
                                 </constraints>
                                 <state key="normal" title="Set"/>
                                 <connections>
-                                    <action selector="setSetDirectionPoint" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3b-CR-pOc"/>
+                                    <action selector="setDirectionPoint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vRi-RV-Wlt"/>
                                 </connections>
                             </button>
                         </subviews>
